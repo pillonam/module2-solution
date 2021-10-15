@@ -1,0 +1,93 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: luminari,fantasy, Trattatello, fantasy, cursive;
+  font-size: 15px;
+}
+
+/*Header*/
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+.box {
+  border: 1px solid black;
+  background-color: #808080;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  position: relative;
+  overflow: auto;
+  margin: 10px;
+}
+
+.title{
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  border-top: 0;
+  border-right: 0;
+  width: 120px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+#t1 {
+  background-color: lightpink;
+  color: black;
+}
+
+#t2 {
+  background-color: orangered;
+  color: white;
+}
+
+#t3 {
+  background-color: yellowgreen;
+  color: black;
+}
+
+.row {
+  width: 100%;
+}
+
+p {
+  padding: 10px;
+  margin-top: 45px;
+  font-family: serif;
+}
+
+
+/********** Desktop *********/
+@media (min-width: 992px) {
+  .col-lg {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+/********** Tablet *********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2 {
+    float: left;
+  }
+  .col-md-1{
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+}
+
+/********** Smartphone **********/
+@media (max-width: 767px) {
+  .col-sm{
+    float: left;
+  }
+}
