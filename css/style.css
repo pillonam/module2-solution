@@ -1,7 +1,7 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  font-family: luminari,fantasy, Trattatello, fantasy, cursive;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 15px;
 }
 
@@ -13,7 +13,7 @@ h1 {
 }
 
 .box {
-  border: 1px solid black;
+  border: 2px solid black;
   background-color: #808080;
   /*height: 150px;*/
   margin-right: auto;
@@ -25,7 +25,7 @@ h1 {
 }
 
 .title{
-  border: 1px solid black;
+  border: 2px solid black;
   position: absolute;
   top: 0;
   right: 0;
@@ -39,17 +39,17 @@ h1 {
 }
 
 #t1 {
-  background-color: lightpink;
+  background-color: #d59898;
   color: black;
 }
 
 #t2 {
-  background-color: orangered;
+  background-color: #c14543;
   color: white;
 }
 
 #t3 {
-  background-color: yellowgreen;
+  background-color: #e5d198;
   color: black;
 }
 
@@ -60,7 +60,7 @@ h1 {
 p {
   padding: 10px;
   margin-top: 45px;
-  font-family: serif;
+  text-align: center;
 }
 
 
